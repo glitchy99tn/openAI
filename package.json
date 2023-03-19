@@ -1,0 +1,23 @@
+{
+  "name": "tvag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm start",
+    "start" : "concurrently \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitchy99tn/openAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glitchy99tn/openAI/issues"
+  },
+  "homepage": "https://github.com/glitchy99tn/openAI#readme"
+}
